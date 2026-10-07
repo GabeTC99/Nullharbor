@@ -71,6 +71,8 @@ When updating an installed game, open it online, wait for its offline files to u
 
 ## Development
 
+New machine? See [`docs/NEW-PC-SETUP.md`](docs/NEW-PC-SETUP.md): export your saves and signing key first, then clone and run `scripts/setup.ps1` (Windows) or `scripts/setup.sh`.
+
 `dist/` is the authored dependency-free web game. Serve it over HTTP for local development; ES modules need a server. HTTPS is required for installation and the service worker, except localhost. No backend is needed; the production Site is privately hosted.
 
 ```sh
